@@ -1,0 +1,28 @@
+:root {
+  /* colors */
+  --color-gray: #475658;
+  --color-white: #fff;
+  --color-dark-blue: #03073c;
+  --color-blue: #121761;
+  --color-red: #d44b4b;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  color: var(--color-gray);
+}

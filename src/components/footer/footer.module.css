@@ -1,0 +1,43 @@
+.footer {
+  background: var(--color-gray);
+
+  padding: 50px 0;
+}
+
+.inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 20px;
+
+  color: var(--color-white);
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.contacts__item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.contacts__img {
+  height: 24px;
+}
+
+.workTime__title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  margin-left: -34px;
+}
+
+.workTime__item {
+  margin-top: 12px;
+}

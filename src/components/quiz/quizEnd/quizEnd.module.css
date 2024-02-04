@@ -1,0 +1,77 @@
+.wrapper {
+  max-width: 1040px;
+  min-height: 740px;
+  margin: 0 auto;
+
+  box-sizing: border-box;
+  padding: 83px 69px 73px;
+
+  box-shadow: 1px 3px 20px 0px rgba(240, 240, 240, 0.8);
+  border-radius: 20px;
+}
+
+.flexWrapper {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+
+  max-width: 540px;
+}
+
+.title {
+  font-size: 35px;
+  color: var(--color-dark-blue);
+}
+
+.downloadBtn {
+  border: 1px solid var(--color-red);
+  border-radius: 10px;
+  background-color: inherit;
+  padding: 20px 0;
+
+  font-size: 23px;
+  font-weight: 700;
+  color: var(--color-red);
+
+  cursor: pointer;
+
+  margin-top: 52px;
+}
+
+.text {
+  align-self: center;
+  margin-top: 64px;
+
+  font-size: 20px;
+  color: var(--color-dark-blue);
+}
+
+.inputHelpText {
+  align-self: center;
+  margin-top: 58px;
+}
+
+.input {
+  padding: 23px 21px;
+  border-radius: 10px;
+
+  margin-top: 20px;
+  border: 1px solid var(--color-gray);
+}
+
+.sendBtn {
+  margin-top: 20px;
+
+  padding: 20px 0;
+
+  color: var(--color-white);
+  font-size: 23px;
+  font-weight: 700;
+
+  border: none;
+  background-color: var(--color-red);
+  border-radius: 10px;
+
+  cursor: pointer;
+}

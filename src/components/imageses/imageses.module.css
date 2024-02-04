@@ -1,0 +1,6 @@
+.inner {
+  padding: 120px 0;
+
+  display: flex;
+  justify-content: space-between;
+}
